@@ -5,6 +5,10 @@ for (let index = 0; index < numeroAlunos; index++) {
     
     if (index == 0) {
         console.log("ZERO");
-        
+    } else if (index%2 == 0) {
+        console.log("EVEN");
+    }else if (index%2 == 1) {
+        console.log("ODD");
     }
+
 }
