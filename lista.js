@@ -6,9 +6,9 @@ for (let index = 0; index < numeroAlunos; index++) {
     if (index == 0) {
         console.log(index + ": ZERO"); // Concatenação
     } else if (index%2 == 0) {
-        console.log(`${index} PAR`); //Interpolação
+        console.log(`${index}: PAR`); //Interpolação
     }else{
-        console.log(`${index} IMPAR`); //Interpolação
+        console.log(`${index}: IMPAR`); //Interpolação
     }
 
-} 
+}
