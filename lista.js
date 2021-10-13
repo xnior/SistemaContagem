@@ -1,14 +1,14 @@
 let numeroAlunos = 5;
 
 for (let index = 0; index < numeroAlunos; index++) {
-    console.log(index);
+    // console.log(index);
     
     if (index == 0) {
-        console.log("ZERO");
+        console.log(index + " ZERO");
     } else if (index%2 == 0) {
-        console.log("PAR");
+        console.log(index + " PAR");
     }else{
-        console.log("IMPAR");
+        console.log(index + " IMPAR");
     }
 
 }
